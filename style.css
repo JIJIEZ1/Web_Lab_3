@@ -1,0 +1,198 @@
+/* Basic CSS Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content styling */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Section styling */
+section {
+    background-color: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table, th, td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+                  img {
+                    width: 100px;
+                    height: auto;
+                  }
+                }
+/* Responsive styling */
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+ {
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+
+        /* p{
+            background-color: grey;
+            outline: solid red 5px;
+        } */
+        
+        .container{
+            display: flex;
+            flex-direction: column;
+            min-height: 400px;
+            /* background-color: grey; */
+            width: 100%;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            min-height: 100px;
+            width: 100%;
+            background-color: aqua;
+            position: relative;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .navigation {
+            display: flex;
+            flex-direction: row;
+            min-height: 20px;
+            width: 100%;
+            background-color: rgb(175, 255, 255);
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+
+        .navigation a {
+
+            text-decoration: none; 
+            color: inherit;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .content{
+
+            display: flex;
+            flex-direction: row;
+            min-height: 300px;
+            width: 100%;
+            /* background-color: red; */
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+
+        .side-bar{
+
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(175, 255, 186);
+            flex-basis: 20%;
+        }
+
+        .side-bar a{
+
+            text-decoration: none; 
+            color: inherit;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+
+        }
+
+
+        .body-area{
+
+            display: flex;
+            flex-direction: column;
+            /* background-color: lightsalmon; */
+            flex-basis: 75%;
+
+        }
+
+        .footer{
+            display: flex;
+            flex-direction: row;
+            min-height: 30px;
+            width: 100%;
+            /* background-color: lightsalmon; */
+            margin-top: 10px;
+            justify-content: center;
+        }
+
+        body {
+
+            background-color: beige;
+        }
+
+        .full-width-section {
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 30px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
